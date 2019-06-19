@@ -31,6 +31,8 @@ group :development, :test do
 end
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
@@ -47,3 +49,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ruby '2.3.0'
+
