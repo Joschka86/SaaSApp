@@ -11,7 +11,7 @@
         <h2 class="text-center"> Basis-Mitgliedschaft</h2> 
         <h4>Melde dich umsonst an und bekomm einfachen Zugang zu unserer Community.</h4>
         <br/>
-        <%= link_to "Als Basis-Mitglied registrieren", "#", class: 'btn btn-primary btn-lg btn-block' %>
+        <%= link_to "Als Basis-Mitglied registrieren",  new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
       </div>
      
     </div>
@@ -20,7 +20,7 @@
       <h2 class="text-center"> Premium-Mitgliedschaft </h2>
       <h4>Melde dich als Premium-Mitglied für nur 10€ im Monat an und bekomm vollen Zugriff auf unsere Community</h4>
        <br/>
-        <%= link_to "Als Premium-Mitglied registrieren", "#", class: 'btn btn-success btn-primary btn-lg btn-block' %>
+        <%= link_to "Als Premium-Mitglied registrieren",  new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-primary btn-lg btn-block' %>
       </div>
     </div>
   </div>
